@@ -46,6 +46,7 @@
   h1{ font-family:'Poppins',sans-serif; font-weight:700; font-size:clamp(20px,3.2vw,32px); margin:0 0 6px; }
   h1 .te{font-family:'Noto Sans Telugu',sans-serif; font-weight:700;}
   .subtitle{ color:var(--ink-soft); font-size:14.5px; margin:0; }
+  .dev-credit{ color:var(--ink-soft); font-size:12px; font-weight:600; margin:6px 0 0; opacity:0.75; }
 
   .controls{
     width:100%; max-width:1180px; display:flex; flex-wrap:wrap; gap:12px;
@@ -205,6 +206,7 @@
   <div class="tricolor-rule"></div>
   <h1><span class="te" id="titleText">భారతదేశం రాష్ట్రాల పజిల్</span></h1>
   <p class="subtitle" id="subtitleText">ప్రతి ముక్క ఒక్కో రాష్ట్రం ఆకారంలో — లాగి సరైన స్థానంలో పెట్టండి</p>
+  <p class="dev-credit">Designed by: Sekhar</p>
 </div>
 
 <div class="controls">
@@ -250,7 +252,7 @@
       <div class="tray" id="tray"></div>
     </div>
     <div class="checklist-panel">
-      <div class="checklist-title" id="checklistTitleText">జాబితా — ఆకుపచ్చ రంగు అమర్చినవి, ఎరుపు రంగు మిగిలినవి</div>
+      <div class="checklist-title" id="checklistTitleText">రాష్ట్రాల జాబితా — పచ్చ రంగు అమర్చినవి, ఎరుపు రంగు మిగిలినవి</div>
       <div class="checklist-items" id="checklistItems"></div>
     </div>
   </div>
@@ -322,6 +324,7 @@
     te: {
       title: "భారతదేశం రాష్ట్రాల పజిల్",
       subtitle: "ప్రతి ముక్క ఒక్కో రాష్ట్రం ఆకారంలో — లాగి సరైన స్థానంలో పెట్టండి",
+      regionLabel: "ప్రాంతం ఎంచుకోండి",
       regionOptions: {
         all: "భారతదేశం పటం",
         north: "ఉత్తర భారతదేశం",
@@ -334,19 +337,20 @@
       hintHide: "👁️సూచన చూపు",
       doneLabel: "చేశారు",
       trayTitle: "ముక్కల పెట్టె — ఇక్కడ నుండి లాగండి",
-      footer: "సూచన: ప్రతి ముక్క నిజమైన రాష్ట్ర ఆకారంలో ఉంటుంది. దాని పేరు ముక్క కింద కనిపిస్తుంది — సరైన స్థానానికి దగ్గరగా వదలండి. (కొలతకు అనుగుణంగా లేదు)",
+      footer: "సూచన: ప్రతి ముక్క నిజమైన రాష్ట్ర ఆకారంలో ఉంటుంది. దాని పేరు ముక్క కింద కనిపిస్తుంది — సరైన స్థానానికి దగ్గరగా వదలండి. ",
       modalTitle: "అభినందనలు! 🎉",
       modalDesc: "మీరు భారతదేశం పటాన్ని విజయవంతంగా పూర్తి చేశారు.",
       playAgain: "మళ్ళీ ఆడండి",
       boardOutlineAlt: "భారతదేశం సరిహద్దు రేఖ",
       boardRefAlt: "సూచన చిత్రం",
-      checklistTitle: "జాబితా — ఆకుపచ్చ రంగు అమర్చినవి, ఎరుపు రంగు మిగిలినవి",
+      checklistTitle: "రాష్ట్రాల జాబితా — పచ్చ రంగు అమర్చినవి, ఎరుపు రంగు మిగిలినవి",
       langToggle: "English",
       fontFamily: "'Noto Sans Telugu', sans-serif"
     },
     en: {
       title: "India States Puzzle",
       subtitle: "Each piece is shaped like a state — drag it to its correct spot",
+      regionLabel: "Choose a region",
       regionOptions: {
         all: "Map of India",
         north: "North India",
@@ -359,13 +363,13 @@
       hintHide: "👁️ Show Hint",
       doneLabel: "done",
       trayTitle: "Piece Tray — drag from here",
-      footer: "Tip: Each piece is shaped like the real state. Its name appears below the piece — drop it near its correct spot.(not to scale) ",
+      footer: "Tip: Each piece is shaped like the real state. Its name appears below the piece — drop it near its correct spot. ",
       modalTitle: "Congratulations! 🎉",
       modalDesc: "You have successfully completed the map of India.",
       playAgain: "Play Again",
       boardOutlineAlt: "India border outline",
       boardRefAlt: "Reference image",
-      checklistTitle: "Checklist — green means placed, red means remaining",
+      checklistTitle: "States checklist — green means placed, red means remaining",
       langToggle: "తెలుగు",
       fontFamily: "'Poppins', sans-serif"
     }
